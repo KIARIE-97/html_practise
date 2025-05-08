@@ -4,38 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
-    <style>
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-body {
-    font-family: "currier new", Courier, monospace;
-    background-color: #a95d7d;
-    margin: 20px;
-}
-p {
-   
-    font-size: 20px;
-}
- .sample::first-letter {
-        font-size: 2em;
-        color: #57b418;
-        font-weight: bold;
-    }
-</style>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+ <title>Document</title>
 </head>
 <body>
     <h1>Welcome to My Web Page</h1>
     <p style="color: rgb(126, 238, 244);">this is a simple blog for some of the services offered by aws✨.</p>
-   <div class="sample">
-     <p >Here is a list of compute services:</p>
-    </div>
-   
     <span  class="material-symbols-outlined">
 favorite
 </span> 
@@ -51,6 +25,9 @@ favorite
 <span  class="material-symbols-outlined">
 favorite
 </span>
+<div class="container">
+ <div class="sample">
+     <p >Here is a list of compute services:</p>
     <ul>
         <li>lamba</li>
         <li>ecs</li>
@@ -58,6 +35,9 @@ favorite
         <li>ec2</li>
         <li>fargate</li>
     </ul>
+</div>
+
+    <div class="sample_1">
     <p>Here is a table for the databases:</p>
     <table border="1">
         <tr>
@@ -79,6 +59,21 @@ favorite
             <td>amazon quicksight</td>
         </tr>
     </table>
-    
+    </div>
+ <div class="subcontainer">
+    <p>Here is a list of storage services:</p>
+    <div class="cards  card_1">
+        <h2>Amazon S3</h2>
+        <p>Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance.</p>
+        <p>Customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.</p>
+    </div>
+    <div class="cards card_2">
+        <h2>Amazon EBS</h2>
+        <p>Amazon Elastic Block Store (EBS) is a block storage service designed for use with Amazon EC2 instances.</p>
+        <p>It provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud.</p>
+        <p>Amazon EBS volumes are highly available and reliable, and they can be easily backed up to Amazon S3.</p>
+    </div>
+    </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,68 @@
+body {
+    font-family: "currier new", Courier, monospace;
+    background-color: #a95d7d;
+    margin: 20px;
+}
+/* p {
+   
+    font-size: 20px;
+} */
+.sample::first-letter {
+        font-size: 2em;
+        color: #57b418;
+        font-weight: bold;
+    }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+min-height: fit-content;
+
+}
+.sample{
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #825f5f;
+    box-shadow: 0 4px 8px rgba(28, 235, 9, 0.2);
+    height: 100%;
+    width: 100%;
+}
+.sample_1{
+    background-color: #68606e;
+    box-shadow: 0 4px 8px rgba(28, 235, 9, 0.2);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.cards{
+   font-size: 12px;
+   width: 80%;
+}
+.card_1 {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card_2 {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
